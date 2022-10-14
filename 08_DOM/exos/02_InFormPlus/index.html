@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice : InFormPlus</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Exercice: In Form</h1>
+    <div>
+        <h2>Creation d'un paragraphe par l'utilisateur</h2>
+        <form onsubmit="createArticle(event)">
+            <label for="article">Article: </label>
+            <textarea id="article" name="article" placeholder="Tapez le texte ici...."></textarea>
+        
+            <label for="size">Taille du texte : </label>
+            <input id="size" type="text" name="size" placeholder="16px"  value=""/>
+
+            <label for="color">Couleur du texte : : </label>
+            <input id="color" type="color" name="color"/>
+
+            <input type="submit" id="soumettre" value = "Publier"/>
+        </form>
+    </div>
+</body>
+</html>
