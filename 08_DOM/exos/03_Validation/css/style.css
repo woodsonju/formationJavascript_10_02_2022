@@ -1,0 +1,17 @@
+#display-contact {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .fiche {
+    border:2px solid black;
+    margin: 10px;
+    padding: 5px;
+} */
+
+#error-msg {
+    color: red;
+    font-weight: bold;
+}

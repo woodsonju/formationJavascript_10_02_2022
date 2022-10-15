@@ -14,7 +14,7 @@ function creerLien() {
 
 function afficherLettre(event) {
 
-    //console.log(event);
+    console.log(event);
     /*
         event.target : Permet d'obtenir l'élément qui a déclenché un évenement
     */
